@@ -1,0 +1,656 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+html,body
+{
+    width: 100%;
+    background-color: #55555501;
+}
+
+
+/* Navigation bar  start */
+
+.nav-bar
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #e9e8e6;
+    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
+    position: fixed;
+    width: 100%;
+    z-index:1;
+
+}
+
+.nav-bar h1
+{
+   font-size: 30px;
+   letter-spacing: 1px;
+   margin-left: 40px;
+   font-weight: 400;
+   font-family: "Raleway", sans-serif;
+}
+
+.nav-bar .nav-anchors-logos
+{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 17px;
+      margin-bottom: 17px;
+}
+
+.nav-anchors
+{
+    margin: 5px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 425px;
+      margin-right: 220px;
+}
+
+ .nav-anchors ul
+{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+ .nav-anchors ul li
+{
+  list-style-type: none;
+}
+
+ .nav-anchors ul li a
+{
+ text-decoration: none;
+ font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #888888;
+ padding-right: 10px;
+ transition: 0.5s;
+}
+ .nav-anchors ul li a.aa
+{ 
+    text-decoration:none;
+    /* color: #3fbbc0; */
+    font-size: 15.5px;
+    font-weight: 550;
+    padding-right: 25px;
+    transition: 0.3s;
+    position: relative;
+}
+
+ .nav-anchors ul li a.bb
+{
+ /* color: #3fbbc0; */
+ text-decoration:none;
+ font-size: 15.5px;
+ font-weight: 550;
+ padding-right: 25px;
+ transition: 0.3s;
+ position: relative;
+}
+ .nav-anchors ul li a:hover
+{
+    color: #3fbbc0;
+    text-decoration: 2px underline #3fbbc0;
+}
+
+ .nav-logos a
+{
+  text-decoration: none;
+}
+
+ .nav-logos a i
+{
+  font-size: 17px;
+  padding-right: 15px;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+ .nav-logos a i:hover
+{
+    color: #3fbbc0;
+}
+
+
+/* Navigation bar  end */
+
+/*  About content  start */
+.about-parent
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+
+.about-child 
+{
+    margin: 5px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-head
+{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 13px 110px;
+}
+
+ .about-head h1
+{
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+
+}
+
+ .about-head hr
+{
+    width: 50px;
+    height: 3.8px;
+    background-color: #0dcaf0;
+}
+
+.about-head p
+{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+  .about-body
+{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 13px 100px;
+}
+
+  .about-body .about-image
+{
+    position: relative;
+    margin: 5px;
+}
+
+  .about-body .about-image img
+{
+   width: 100%;
+   width: 410px;
+   margin-right: 10px;
+}
+
+ .about-body .about-content
+{
+    margin: 5px;
+    margin-top: -18px;
+}
+
+ .about-body .about-content p
+{
+    font-size: 16.5px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    padding-bottom: 13px;
+}
+
+ .about-body .about-content p b
+{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+ .about-content .about-content-head
+{
+    margin: 5px;
+    /* margin-bottom: 60px; */
+}
+
+ .about-content .about-content-head h1
+{
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+
+ .about-content .about-content-body
+{
+    margin: 5px;
+    display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.about-content-body .about-head-left
+{
+    margin: 5px;
+} 
+
+ .about-content-body  .about-head-right
+{
+    margin: 5px;
+    margin-left: 230px;
+}
+
+/*  About containt CSS end */
+
+
+
+/* Skill CSS start  */
+
+.skill-parent
+{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-child
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .skill-head
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 100px;
+}
+
+.skill-head h1
+{
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
+}
+
+ .skill-head hr
+{
+    width: 50px;
+    height: 3.8px;
+    background-color: #3fbbc0;
+}
+
+ .skill-head p
+{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+ .skill-body
+{
+    margin: 5px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+ .skill-body .skill-body1 
+{
+    margin: 10px;
+    width: 640px;
+}
+
+ .skill-body .skill-body1 .skill-chart
+{
+    margin-bottom: 15px;
+}
+
+ /* .skill-body1 .skill-chart meter
+{
+    height: 30px;
+    width: 625px;
+} */
+
+.meter::-webkit-meter-bar
+{
+border-radius: 10px;
+width: 600px;
+height: 15px;
+}
+
+.meter::-webkit-meter-optimum-value
+{
+    background-color:#3fbbc0;
+}
+
+
+ .skill-body1 .skill-chart .content
+{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+ .skill-body1 .skill-chart .content p.p
+{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.skill-body1 .skill-chart .content p.p1
+{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding-left: 550px;
+    font-weight: bold;
+}
+
+.skill-body1 .skill-chart .content p.p2
+{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding-left: 565px;
+    font-weight: bold;
+}
+
+ .skill-body1 .skill-chart .content p.p3
+{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding-left: 511px;
+    font-weight: bold;
+}
+
+ .skill-body1 .skill-chart .content p.p4
+{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding-left: 565px;
+    font-weight: bold;
+}
+
+ .skill-body1 .skill-chart .content p.p5
+{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding-left: 475px;
+    font-weight: bold;
+  
+}
+
+ .skill-body1 .skill-chart .content p.p6
+{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding-left: 510px;
+    font-weight: bold;
+}
+
+/* Skill  end  */
+
+/* Facts  start */
+
+.fact-parent
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 75px;
+}
+
+.fact-child
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.fact-head
+{
+    margin: 5px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 110px;
+   margin-right: 110px;
+}
+
+ .fact-head h1
+{
+   font-size:30px;
+   letter-spacing: 0.5px;
+   padding-bottom: 15px;
+}
+
+ .fact-head hr
+{
+   width: 50px;
+   height: 3.5px;
+   background-color: #3fbbc0;
+}
+
+ .fact-head p
+{
+    font-size:17px;
+   letter-spacing: 0.5px;
+   padding-top: 15px;
+   line-height: 24px;
+   text-align: center;
+}
+
+ .fact-body
+{
+    margin: 5px;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.fact-body .fact-body1
+{
+    margin-right: 110px;
+    margin-top: 15px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+}
+
+ .fact-body .fact-body1 h1
+{
+    font-size:50px;
+    font-weight: normal;
+    letter-spacing: 0.5px;  
+    text-align: center;
+    padding-bottom: 6px;
+    color: #3fbbc0;
+}
+
+.fact-body .fact-body1 p
+{
+    font-size:15px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+/* Facts  end */
+
+/* Testimonial  start */
+
+.test-parent
+{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-child
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .test-head
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 100px;
+}
+
+ .test-head h1
+{
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
+}
+
+.test-head hr
+{
+   width: 50px;
+   height: 3.5px;
+   background-color: #3fbbc0;
+}
+
+ .test-head p
+{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+    text-align: center;
+    line-height: 23px;
+}
+
+ .test-body
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .test-image-content .test-image
+{
+    margin: 8px 0px;
+    width: 110px;
+    margin-top: 20px;
+}
+
+ .test-image-content .test-image img
+{
+   width: 100%;
+   border-radius: 50%;
+}
+
+ .test-image-content .test-content h1
+{
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    color: black;
+    padding-bottom: 4.5px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+ .test-image-content .test-content p
+{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+ .test-body .test-content1
+{
+    margin: 5px 250px;
+    margin-top: 20px;
+}
+
+ .test-body .test-content1 p
+{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    text-align: center;
+}
+
+ .test-body .test-content1 p i
+{
+   font-size: 17px;
+   color: #3fbbc0;
+}
+
+
+/* Testimonial  end */
+
+/* copyright start */
+
+.copyright
+{
+  background-color: #55555525;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.copyright .copy
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.copyright .copy p
+{
+   font-size: 15px;
+   letter-spacing: 0.5px;
+   line-height: 25px;
+}
+.copyright .copy p b
+{
+   font-size: 15px;
+}
+
+.copyright .copy p a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: #3fbbc0;
+}
+
+/* copyright  end */

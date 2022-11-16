@@ -1,0 +1,237 @@
+/* HOME PAGE  START */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+/* Background image  start */
+
+.home-image
+{
+    background-image: url(https://bootstrapmade.com/demo/templates/Kelly/assets/img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 680px;
+}
+
+/* Background image  end */
+
+/* Navigation bar  start */
+
+.nav-bar
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #e9e8e6;
+    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar h1
+{
+   font-size: 30px;
+   letter-spacing: 1px;
+   margin-left: 40px;
+   font-weight: 400;
+   font-family: "Raleway", sans-serif;
+}
+
+.nav-bar .nav-anchors-logos
+{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 17px;
+      margin-bottom: 17px;
+}
+
+.nav-anchors
+{
+    margin: 5px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 425px;
+      margin-right: 220px;
+}
+
+ .nav-anchors ul
+{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+ .nav-anchors ul li
+{
+  list-style-type: none;
+}
+
+ .nav-anchors ul li a
+{
+ text-decoration: none;
+ font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #888888;
+ padding-right: 10px;
+ transition: 0.5s;
+}
+ .nav-anchors ul li a.aa
+{ 
+    text-decoration:none;
+    color: #3fbbc0;
+    font-size: 15.5px;
+    font-weight: 550;
+    padding-right: 25px;
+    transition: 0.3s;
+    position: relative;
+}
+
+ .nav-anchors ul li a:hover
+{
+    color: #3fbbc0;
+    text-decoration: 2px underline #3fbbc0;
+}
+
+ .nav-logos a
+{
+  text-decoration: none;
+}
+
+ .nav-logos a i
+{
+  font-size: 17px;
+  padding-right: 15px;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+ .nav-logos a i:hover
+{
+    color: #3fbbc0;
+}
+
+/* Navigation bar  end */
+
+ /* Background  start  */
+
+.home-image .main-content
+{
+   margin: 5px;
+   color: #222222;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.main-content1
+{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content1 h1
+{
+   font-size: 40px;
+   font-family: "Open Sans", sans-serif;
+    color: #444444;
+   padding-bottom: 10px;
+   letter-spacing: 0.5px;
+}
+
+ .main-content1 p
+{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-family: "Open Sans", sans-serif;
+    color: #5f5f5f;
+   
+}
+
+ .main-content1 a
+{
+  text-decoration: none;
+  border: 1px solid #34b7a7;
+  background-color: #34b7a7;
+  padding: 10px 35px;
+  border-radius: 18px;
+  color: white;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+ .main-content1 a:hover
+{
+    background-color: #3fbcc0b4;
+}
+
+/* Background  ends  */
+
+/* copyright  start */
+
+.copyright
+{
+  background-color: #55555525;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.copyright .copy
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.copyright .copy p
+{
+   font-size: 15px;
+   letter-spacing: 0.5px;
+   line-height: 25px;
+}
+.copyright .copy p b
+{
+   font-size: 15px;
+}
+
+.copyright .copy p a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: #3fbbc0;
+}
+
+/* copyright  end */
+
+
+
+
+
+
+
+
+
+
